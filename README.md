@@ -1,3 +1,5 @@
+# !This is a Template Repository - Edit Content Below for Your Species!
+
 # Common Name (_Genus species_)
 
 <img align="right" height="250" src="https://www.fisheries.noaa.gov/s3/styles/original/s3/dam-migration/640x427-harbor-seal.png">
