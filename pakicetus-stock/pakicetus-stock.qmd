@@ -1,0 +1,38 @@
+---
+title: "PAKICETUS (_Pakicetus sp_)"
+author:
+  - name: Norah Jones
+  - email: norah.jones@noaa.gov
+  - orcid: 0000-0001-1111-111
+    affiliations:
+      - ref: cmu
+      - ref: chicago
+affiliations:
+  - id: cmu
+    name: Carnegie Mellon University
+    city: Pittsburgh
+    state: PA
+  - id: chicago
+    name: University of Chicago
+    city: Chicago
+    state: IL
+execute: 
+  echo: false
+  warning: false
+  message: false
+format: 
+  docx:
+    reference-doc: ../templates/alaska-sar-template.docx
+    fig-width: 6.5
+    out-width: "100%"
+    fig-asp: 0.618
+    fig-align: center
+---
+
+## Pakicetidae
+
+From Wikipedia, the free encyclopedia
+
+Dehm & Oettingen-Spielberg 1958 described the first pakicetid, Ichthyolestes, but at the time they did not recognize it as a cetacean, identifying it, instead, it as a fish-eating mesonychid. Robert West was the first to identify pakicetids as cetaceans in 1980 and, after discovering a braincase, Phillip Gingerich and Donald Russell described the genus Pakicetus in 1981. On October 26, 2016, a publication represented the idea that the emergence of cetacea in the Paleogene presents the best idea of microevolution that resulted in the phenotype of pakicetid. During the following two decades, more research resulted in additional pakicetid cranial material and by 2001 postcranial material for the family had been described. Though all parts of pakicetid postcrania are known, no complete skeleton from a single individual has been recovered. The pakicetid goldmine is the "H-GSP Locality 62" site in the Kala Chitta Hills where fossils from all three genera have been found. However, this site is so littered with bones that identifying bones from a single individual is impossible, and pakicetid skeletons are consequently composites of bones from several individuals.
+
+Pakicetids have been found in or near river deposits in northern Pakistan and northwestern India, a region which was probably arid with only temporary streams when these animals lived there. No pakicetids have been found in marine deposits, and they were apparently terrestrial or freshwater animals. Their long limbs and small hands and feet also indicate they were poor swimmers. Their bones are heavy and compact and were probably used as ballast; they clearly indicate pakicetids were not fast runners notwithstanding their otherwise cursorial morphology. Most likely, pakicetids lived in or near bodies of freshwater and their diet could have included both land animals and aquatic organisms. During the Eocene, Pakistan was a coastal region of the Eurasian land mass and therefore an ideal habitat for the evolution, and diversification of the Pakicetids.
