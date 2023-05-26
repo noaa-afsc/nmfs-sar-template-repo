@@ -29,6 +29,8 @@ format:
     theme: cosmo
     fontsize: 1.1em
     linestretch: 1.7
+  docx:
+    reference-doc: ../templates/custom-reference-doc.docx
 ---
 
 ## Pakicetidae
