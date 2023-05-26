@@ -1,6 +1,6 @@
 ---
 title: "PAKICETUS (_Pakicetus sp_)"
-author:
+authors:
   - name: Norah Jones
   - email: norah.jones@noaa.gov
   - orcid: 0000-0001-1111-111
@@ -20,13 +20,12 @@ execute:
   echo: false
   warning: false
   message: false
-format: 
-  docx:
-    reference-doc: ../templates/alaska-sar-template.docx
-    fig-width: 6.5
-    out-width: "100%"
-    fig-asp: 0.618
-    fig-align: center
+
+format:
+  html: 
+    theme: cosmo
+    fontsize: 1.1em
+    linestretch: 1.7
 ---
 
 ## Pakicetidae
