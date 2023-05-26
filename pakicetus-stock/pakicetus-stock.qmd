@@ -1,21 +1,24 @@
 ---
 title: "PAKICETUS (_Pakicetus sp_)"
-authors:
-  - name: Norah Jones
-  - email: norah.jones@noaa.gov
-  - orcid: 0000-0001-1111-111
+author:
+  - name: Carl Linnaeus
+    email: carl.linnaeus@noaa.gov
+    orcid: 0000-0001-111-1111
     affiliations:
-      - ref: cmu
-      - ref: chicago
+      - ref: noaa-mml
+  - name: Charles Darwin
+    email: charles.darwin@noaa.gov
+    affiliations:
+      - ref: noaa-mml
+
 affiliations:
-  - id: cmu
-    name: Carnegie Mellon University
-    city: Pittsburgh
-    state: PA
-  - id: chicago
-    name: University of Chicago
-    city: Chicago
-    state: IL
+  - id: noaa-mml
+    name: Alaska Fisheries Science Center
+    department: National Marine Fisheries Service
+    address: 7600 Sand Point Way NE
+    city: Seattle
+    state: WA
+
 execute: 
   echo: false
   warning: false
