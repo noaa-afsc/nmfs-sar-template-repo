@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+*.docx
+!templates/custom-reference-doc.docx
+*.html
+*_files/
+/_site/

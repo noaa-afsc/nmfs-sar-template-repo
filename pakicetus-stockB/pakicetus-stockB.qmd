@@ -1,5 +1,5 @@
 ---
-title: "PAKICETUS (_Pakicetus sp_)"
+title: "PAKICETUS STOCK B (_Pakicetus sp_)"
 author:
   - name: Carl Linnaeus
     email: carl.linnaeus@noaa.gov
