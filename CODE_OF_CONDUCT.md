@@ -52,18 +52,46 @@ address, posting via an official social media account, or acting as an appointed
 representative at an online or offline event. Representation of a project may be
 further defined and clarified by project maintainers.
 
-## Enforcement
+## Alaska Fisheries Science Center Code of Conduct
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at fisheries.toolbox@noaa.gov. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+As this repository is within the NOAA Alaska Fisheries Science Center's GitHub Enterprise Organization,
+the AFSC Code of Conduct is also applicable. The text below is taken from the AFSC Code of Conduct
+(January 2023):
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+The Alaska Fisheries Science Center (AFSC) is committed to providing all staff a healthful, safe,
+and respectful workplace. We consider staff to be inclusive of federal employees; affiliates like
+contractors and grantees; volunteers; and anyone working in collaboration with AFSC in the
+office, lab, or field. It is important to the success of our mission and the efficient functioning of
+our Center that we treat one another with civility, dignity, and respect. As staff members of the
+AFSC we represent the Federal government, and as such, we are held to, and desire to
+promote, a high professional standard of behavior. It is important that we remember this whether
+in the office, at a public event, or deployed in the field. To that end, we provide this Code of
+Conduct for all staff. It is intended that this Code will facilitate a broader awareness of
+expectations, and will help guide us all to be the best versions of ourselves and outstanding
+representatives of the Federal government. This Code complements existing NOAA standards
+for ethics, professionalism and scientific integrity that govern our work and AFSC work products.
+
+AFSC staff members will...
+* Treat everyone with dignity and respect, regardless of position or time in service.
+* Respect everyone’s positions and duties, recognizing every role serves the mission of
+the AFSC.
+* Be honest, non-judgmental, and courteous.
+* Act professionally in all situations.
+* Empower colleagues to share ideas, provide feedback, and feel valued
+through the promotion and intentional practice of psychological safety.
+* Share in the responsibility for creating and maintaining a workplace free of
+discrimination, harassment, and reprisal:
+  * Never engage in discrimination on the basis of race, ethnicity, religion,
+sexual orientation, gender identity or expression, national origin, age,
+physical or mental differences, or political views;
+  * Never engage in any form of bullying or disrespect, including cyberbullying;
+  * Never engagee in any form of sexual assault or sexual harassment.
+* Report incidents of discrimination, harassment (including sexual harassment), bullying,
+or disrespect in all our workplaces.
+
+Finally, If You See Something, Say Something. Reports of any form of misconduct or
+harassment can be submitted through any AFSC supervisor, the NOAA Workforce
+Management Office or the NOAA Civil Rights Office.
 
 ## Attribution
 
