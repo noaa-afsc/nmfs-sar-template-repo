@@ -23,10 +23,10 @@ jobs:
           r-version: 'release'
       
       - uses: r-lib/actions/setup-r-dependencies@v2
-              with:
-                packages:
-                  any::knitr
-                  any::rmarkdown
+        with:
+          packages:
+            any::knitr
+            any::rmarkdown
                   
       - name: Install rnaturalearthhires
         run: |
