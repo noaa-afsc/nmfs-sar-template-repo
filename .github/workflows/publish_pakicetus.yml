@@ -23,7 +23,11 @@ jobs:
           r-version: 'release'
       
       - uses: r-lib/actions/setup-r-dependencies@v2
-            
+              with:
+                packages:
+                  any::knitr
+                  any::rmarkdown
+                  
       - name: Install rnaturalearthhires
         run: |
           R -e 'install.packages("rnaturalearthhires", repos = "http://ropensci.r-universe.dev", type = "source")'
