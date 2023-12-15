@@ -33,6 +33,13 @@ format:
     reference-doc: ../templates/custom-reference-doc.docx
 ---
 
+```{r packages, include = FALSE}
+library(sf)
+library(dplyr)
+library(rnaturalearth)
+```
+
+
 ## STOCK DEFINITION AND GEOGRAPHIC RANGE 
 
 This section should summarize stock designation and DIP delineation information. This information should include a summary of the lines of evidence that support DIP delineations, and cite any supporting documents where this information is detailed. This section should also include a description of what is known about the geographic range of the stock (and a map if appropriate), including any known stock boundaries if applicable, and any uncertainty regarding the stock range. See Section 3.1 for additional guidance
