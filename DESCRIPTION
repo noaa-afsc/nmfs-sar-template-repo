@@ -1,0 +1,7 @@
+Package: mml-sar-template
+License: CC0
+Imports: 
+    dplyr,
+    rnaturalearth,
+    sf
+Encoding: UTF-8
