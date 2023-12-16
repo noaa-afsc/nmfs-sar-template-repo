@@ -37,6 +37,7 @@ format:
 library(sf)
 library(dplyr)
 library(rnaturalearth)
+library(rnaturalearthhires)
 ```
 
 

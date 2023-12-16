@@ -27,11 +27,7 @@ jobs:
           extra-packages:
             any::knitr
             any::rmarkdown
-                  
-      - name: Install rnaturalearthhires
-        run: |
-          R -e 'install.packages("rnaturalearthhires", repos = "http://ropensci.r-universe.dev", type = "source")'
-        
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
