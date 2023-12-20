@@ -1,7 +1,8 @@
 Type: project
 Title: MML SAR Quarto Repository Template
+Version: 0.1
 Description: Repository template for Quarto SARs
-Depends:
+Depends: 
     dplyr,
     rnaturalearth,
     rnaturalearthhires,
