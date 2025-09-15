@@ -6,7 +6,7 @@
 /.quarto/
 
 *.docx
-!templates/custom-reference-doc.docx
+!assets/custom-reference-doc.docx
 *.html
 *_files/
 /_site/

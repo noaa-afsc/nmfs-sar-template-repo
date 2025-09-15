@@ -1,18 +1,26 @@
 ---
-title: "PAKICETUS STOCK B (_Pakicetus sp_)"
+title: "Pakicetus Stock B"
+subtitle: "_Pakicetus sp_"
+date: today
+publication-date: 2050-01-01
+date-format: "MMMM DD, YYYY"
+citeproc: true
+bibliography: ../assets/references_pakicetus.yaml
+csl: ../assets/apa.csl
+
 author:
   - name: Carl Linnaeus
     email: carl.linnaeus@noaa.gov
     orcid: 0000-0001-111-1111
     affiliations:
-      - ref: noaa-mml
+      - ref: 1
   - name: Charles Darwin
     email: charles.darwin@noaa.gov
     affiliations:
-      - ref: noaa-mml
+      - ref: 1
 
 affiliations:
-  - id: noaa-mml
+  - id: 1
     name: Alaska Fisheries Science Center
     department: National Marine Fisheries Service
     address: 7600 Sand Point Way NE
@@ -26,17 +34,72 @@ execute:
 
 format:
   html: 
-    theme: cosmo
-    fontsize: 1.1em
-    linestretch: 1.7
-  docx:
-    reference-doc: ../templates/custom-reference-doc.docx
+    out-width: "90%"
+    fig-width: 9
+    fig-asp: 0.618
+  nmfs-sar-pdf-typst:
+    nmfs-region: World
+    sar-year: 2025
+    stock-name: "Stock B"
+    common-name: "Pakicetus"
+    genus-species: "Pakicetus sp."
+    linenumbering: true
+    keep-typ: false
+    fig-width: 9
+    fig-asp: 0.618
+    fig-dpi: 600
 ---
 
-```{r packages, include = FALSE}
+```{r}
+#| label: setup
+#| include: false
+
 library(sf)
 library(dplyr)
 library(rnaturalearth)
+library(rnaturalearthhires)
+library(ggplot2)
+library(purrr)
+library(fs)
+
+# source all R scripts in the R/ folder
+r_files <- fs::dir_ls(here::here("R"), glob = "*.R")
+purrr::map(r_files, source)
+
+# set the image device to ragg_png for better quality plots
+knitr::opts_chunk$set(dev = "ragg_png")
+
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE
+)
+
+# make sure large numbers in text are formatted with commas
+knitr::knit_hooks$set(
+  inline = function(x) {
+    if (!is.numeric(x)) {
+      x
+    } else {
+      prettyNum(x, big.mark = ",")
+    }
+  }
+)
+
+options(scipen = 3, digits = 2)
+
+# set the ggplot theme base font size and font family
+theme_set(theme_minimal(base_size = 12, base_family = "Roboto"))
+
+# function (for gt tables) to format numbers based on GAMMS specs
+fmt_gamms_numbers <- function(x) {
+  case_when(
+    x <= 1 ~ formatC(x, format = "f", digits = 2),
+    x > 1 & x <= 10 ~ formatC(x, format = "f", digits = 1),
+    x > 10 ~ formatC(x, format = "f", digits = 0, big.mark = ","),
+    TRUE ~ "format error"
+  )
+}
 ```
 
 ## STOCK DEFINITION AND GEOGRAPHIC RANGE 
@@ -63,10 +126,10 @@ This section should contain a complete description of what is known about human-
 
 This section should summarize four types of “status” of the stock: (1) current legal designation under the MMPA and ESA, (2) status relative to OSP (within OSP, below OSP, or unknown), (3) designation of strategic or not, and (4) a summary of trends in abundance and human-caused M/SI. See Section 3.4 for additional guidance.
 
-## OTHER FACTORS THAT MAY BE CAUSING A DECLINE OR IMPEDING RECOVER Y 
+## OTHER FACTORS THAT MAY BE CAUSING A DECLINE OR IMPEDING RECOVERY 
 
 This section, which is required for strategic stocks but otherwise optional, should describe any other factors affecting the status of the stock. It should only be a summary of the issue and should reference publications. See Section 3.5 for additional guidance. 
 
 ## REFERENCES CITED 
 
-This section should include a bibliography of references used to support the SAR. 
+

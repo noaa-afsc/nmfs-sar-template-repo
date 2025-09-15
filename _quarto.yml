@@ -15,5 +15,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - assets/sar_theme.scss
     toc: true
