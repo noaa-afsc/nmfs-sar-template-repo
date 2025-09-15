@@ -54,10 +54,7 @@ format:
 #| label: setup
 #| include: false
 
-library(sf)
 library(dplyr)
-library(rnaturalearth)
-library(rnaturalearthhires)
 library(ggplot2)
 library(purrr)
 library(fs)
