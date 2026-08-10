@@ -5,7 +5,7 @@ date: today
 publication-date: 2050-01-01
 date-format: "MMMM DD, YYYY"
 citeproc: true
-bibliography: ../assets/references_pakicetus.yaml
+bibliography: ../assets/references_pakicetus.json
 csl: ../assets/apa.csl
 
 author:
