@@ -131,10 +131,11 @@ This is a Typst template file for a NOAA Fisheries Stock Assessment Reports (SAR
   }
   
   // Authors and Affiliations
+  let authors_list = if type(authors) == dictionary { (authors,) } else { authors }
   if authors != none {
     box(inset: (left: 2em, right: 2em), {
       set text(font: "Roboto")
-      authors.map(author => {
+      authors_list.map(author => {
         text(11pt, weight: "semibold", author.name)
         h(1pt)
         if "affiliation" in author {
@@ -178,7 +179,7 @@ This is a Typst template file for a NOAA Fisheries Stock Assessment Reports (SAR
 
   // Corresponding author
   if authors != none {
-    let corresponding_authors_list = authors.filter(author => "attributes" in author and "corresponding" in author.attributes and author.attributes.corresponding)
+    let corresponding_authors_list = authors_list.filter(author => "attributes" in author and "corresponding" in author.attributes and author.attributes.corresponding)
     if corresponding_authors_list.len() > 0 {
       let corresponding_author = corresponding_authors_list.first()
       v(1em)
