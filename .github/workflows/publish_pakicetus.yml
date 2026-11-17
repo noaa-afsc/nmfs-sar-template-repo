@@ -16,6 +16,8 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.11.9
       
       - name: Install R
         uses: r-lib/actions/setup-r@v2
@@ -50,6 +52,7 @@ jobs:
             any::sf
             any::dplyr
             any::here
+            any::fs
             any::ggplot2
             any::rnaturalearth
             any::ragg
@@ -71,4 +74,3 @@ jobs:
         
       - name: Render Site
         uses: quarto-dev/quarto-actions/render@v2
-
