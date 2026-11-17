@@ -8,6 +8,8 @@ This repository supports the development, co-authoring, and version tracking for
 
 This repository is organized into directories that each represent a single stock assessment report for the species. In some cases, there will be only a single stock and, in other cases, there might be multiple stocks/directories.
 
+Keep shared project settings and website navigation in `_quarto.yml`, and stock-specific report metadata in each report's `.qmd` file. Shared R functions, supporting data, and resources such as styles, references, and fonts belong in `R/`, `data/`, and `assets/`, respectively. Add or remove stock directories as needed; this layout is a starting point, not a requirement to keep every stock identical.
+
 ### Species Stock A
 
 insert brief description of this stock
@@ -15,6 +17,10 @@ insert brief description of this stock
 ### Species Stock B
 
 insert brief description of this stock
+
+## Rendering the reports
+
+Install Quarto 1.11.9 and the R packages required by the reports, then run `quarto render` from the repository root to render the configured HTML and Typst PDF outputs. The publish workflow uses the same Quarto version and renders the project.
 
 ## Contact Information
 
